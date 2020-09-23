@@ -1,0 +1,22 @@
+*****************************************************
+*           Simon's CD Player v1.0                  *
+*           Written By: Simon Kale                  *
+*           Email: simonkale@yahoo.com              *
+*           Date: 28th August 2001                  *
+*****************************************************
+
+
+What's up Doc?
+
+Simon's Proverb: "If I fix every bugs in this version then how do I release next version?"
+
+Known Bugs:
+
+1)When the CD door is opened by clicking eject button of CD-ROM and then try to close it by eject button of Simon's CD Player. The button has to be clicked twice.
+
+2)Random Order and Intro Play do not work simultaneously.
+
+3)In the "Preferences" dialog box, the two check boxes; Save Settings on Exit  & Show Tool Tips, saves settings and shows tooltips where they are checked or not 'Coz I haven't written any code to stop them from doing so.
+
+To Do Lists:
+1)Many things are yet to be implemented.

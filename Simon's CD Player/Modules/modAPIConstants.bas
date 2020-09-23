@@ -1,0 +1,31 @@
+Attribute VB_Name = "modAPIConstants"
+Option Explicit
+
+Public Const DRIVE_CDROM = 5
+Public Const SW_SHOWNORMAL = 1
+
+Public Const HKEY_CURRENT_USER = &H80000001
+Public Const REG_OPTION_BACKUP_RESTORE = 4  ' open for backup or restore
+Public Const REG_OPTION_VOLATILE = 1    ' Key is not preserved when system is rebooted
+Public Const REG_OPTION_NON_VOLATILE = 0    ' Key is preserved when system is rebooted
+Public Const REG_DWORD = 4
+Public Const REG_SZ = 1
+Public Const STANDARD_RIGHTS_ALL = &H1F0000
+Public Const SYNCHRONIZE = &H100000
+Public Const READ_CONTROL = &H20000
+Public Const STANDARD_RIGHTS_READ = (READ_CONTROL)
+Public Const STANDARD_RIGHTS_WRITE = (READ_CONTROL)
+Public Const KEY_CREATE_LINK = &H20
+Public Const KEY_CREATE_SUB_KEY = &H4
+Public Const KEY_ENUMERATE_SUB_KEYS = &H8
+Public Const KEY_NOTIFY = &H10
+Public Const KEY_QUERY_VALUE = &H1
+Public Const KEY_SET_VALUE = &H2
+Public Const KEY_READ = ((STANDARD_RIGHTS_READ Or KEY_QUERY_VALUE Or KEY_ENUMERATE_SUB_KEYS Or KEY_NOTIFY) And (Not SYNCHRONIZE))
+Public Const KEY_WRITE = ((STANDARD_RIGHTS_WRITE Or KEY_SET_VALUE Or KEY_CREATE_SUB_KEY) And (Not SYNCHRONIZE))
+Public Const KEY_EXECUTE = (KEY_READ)
+Public Const KEY_ALL_ACCESS = ((STANDARD_RIGHTS_ALL Or KEY_QUERY_VALUE Or KEY_SET_VALUE Or KEY_CREATE_SUB_KEY Or KEY_ENUMERATE_SUB_KEYS Or KEY_NOTIFY Or KEY_CREATE_LINK) And (Not SYNCHRONIZE))
+Public Const ERROR_SUCCESS = 0&
+
+Public Const EM_LIMITTEXT = &HC5
+

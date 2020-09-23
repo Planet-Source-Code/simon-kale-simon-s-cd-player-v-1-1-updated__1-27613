@@ -1,0 +1,8 @@
+frmCdplay = 0, 0, 762, 668, Z, 186, 123, 546, 448, C
+frmPreferences = 0, 0, 762, 668, , 192, 141, 577, 418, C
+modAPIDeclarations = 0, -1, 762, 668, 
+modAPIConstants = 0, 1, 762, 665, 
+clsCDPlayer = -1, 0, 762, 669, 
+frmAbout = 0, 0, 762, 668, , 182, 113, 566, 418, C
+modRegistry = 0, 0, 762, 668, 
+modCheckDriveLetter = 0, 0, 762, 668, 
